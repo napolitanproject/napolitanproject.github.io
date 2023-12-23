@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Napolitan Project</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
-
-</head>
-<body>
-    <script>
-        var scene = new THREE.Scene();
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>ho</title><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script><script defer="defer" src="/js/chunk-vendors.62b57283.js"></script><script defer="defer" src="/js/app.06f0432d.js"></script><link href="/css/app.8cf42256.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but ho doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><script>var scene = new THREE.Scene();
 
 // Create a basic perspective camera
 var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
@@ -42,17 +31,13 @@ scene.add( cube );
 
 // Render Loop
 var render = function () {
-  requestAnimationFrame( render );
+requestAnimationFrame( render );
 
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
+cube.rotation.x += 0.01;
+cube.rotation.y += 0.01;
 
-  // Render the scene
-  renderer.render(scene, camera);
+// Render the scene
+renderer.render(scene, camera);
 };
 
-render();
-
-    </script>
-</body>
-</html>
+render();</script><div id="app"></div></body></html>
